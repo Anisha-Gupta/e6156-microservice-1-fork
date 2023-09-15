@@ -12,7 +12,7 @@ students_resource = StudentsResource()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello World. This is Anisha's forked repo for E6156 hw0"}
 
 
 @app.get("/hello/{name}")
